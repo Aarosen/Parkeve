@@ -1,8 +1,8 @@
-user1 = User.create(name: "Aaron Rosen", email: "abc@gmail.com", password: "abcabc", status: "admin")
-user2 = User.create(name: "Abel Hernandez", email: "123@gmail.com", password: "123123", status: "customer")
-user3 = User.create(name: "Abigail Fernandez", email: "aaa@gmail.com", password: "aaaaaa", status: "customer")
-user4 = User.create(name: "Liliana Smith", email: "bbb@gmail.com", password: "bbbbbb", status: "customer")
-user5 = User.create(name: "Teresa Borges", email: "ccc@gmail.com", password: "cccccc", status: "customer")
+user1 = User.create(name: "Aaron Rosen", email: "abc@gmail.com", status: "admin")
+user2 = User.create(name: "Abel Hernandez", email: "123@gmail.com", status: "customer")
+user3 = User.create(name: "Abigail Fernandez", email: "aaa@gmail.com", status: "customer")
+user4 = User.create(name: "Liliana Smith", email: "bbb@gmail.com", status: "customer")
+user5 = User.create(name: "Teresa Borges", email: "ccc@gmail.com", status: "customer")
 
 property1 = Property.create(user_id: user1.id, owner_id: user1.id, address: "Lafontaine, #23", zip_code: "07100", city: "Polanco", state: "Mexico City", country: "Mexico")
 property2 = Property.create(user_id: user1.id, owner_id: user1.id, address: "Tonala, #30", zip_code: "06100", city: "Roma Norte", state: "Mexico City", country: "Mexico")
