@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class FormPaymentTest < ActiveSupport::TestCase
+class InfoPaymentTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
