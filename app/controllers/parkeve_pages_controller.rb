@@ -1,22 +1,22 @@
 class ParkevePagesController < ApplicationController
-  def home
-  end
+  # def home
+  # end
 
-  def help
-  end
+  # def help
+  # end
 
-  def sign_up
-  end
+  # def signup
+  # end
 
-  def about
-  end
+  # def about
+  # end
 
-  def propietor
-  end
+  # def propietor
+  # end
 
-  def contact
-  end
+  # def contact
+  # end
 
-  def log_in
-  end
+  # def login
+  # end
 end
