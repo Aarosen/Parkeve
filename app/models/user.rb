@@ -9,7 +9,7 @@ class User < ApplicationRecord
 
   #user password validation
   has_secure_password
-  validates :password, presence: true, length: { minimum: 6 }
+  validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
 
 	has_many :properties_created, :foreign_key => "owner_id", :class_name => "Property"
 	has_many :parkings
