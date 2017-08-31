@@ -6,6 +6,11 @@
         <%= gravatar_for @user %>
         <%= @user.name %>
       </h1>
+   		<% if current_user.admin? && !current_user?(@user_destroy) %>
+   			<div>
+					<%= link_to "Users", users_path %>
+				</div>
+   		<% end %>
     </section>
   </aside>
 </div>
